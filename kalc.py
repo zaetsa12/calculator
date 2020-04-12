@@ -43,7 +43,7 @@ def dill(params):
     res = - params[0]
     print('res ', res)
 
-    for item in range(len(params)-1):
+    for item in params[1:]:
         if item == 0:
             print('Error')
         else:
